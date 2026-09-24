@@ -1,0 +1,26 @@
+T-GPS
+Copyright 2026 T-GPS contributors
+
+This project is an unofficial, independent work and is not affiliated with,
+endorsed by, or sponsored by Tesla, Inc. "Tesla" and related names are
+trademarks of Tesla, Inc.
+
+This product includes software derived from:
+
+  teslamotors/vehicle-command
+  https://github.com/teslamotors/vehicle-command
+  Copyright Tesla, Inc.
+  Licensed under the Apache License, Version 2.0.
+
+The Kotlin sources under app/src/main/java/com/dali/teslagps/tesla/ (except
+Wire.kt) and ble/ re-implement the vehicle BLE protocol (session handshake,
+message framing, metadata hashing, message and field layout) described by and
+ported from that project. They were rewritten in Kotlin for Android; they are
+modified, not verbatim copies.
+
+Third-party libraries used at build time (Kotlin, AndroidX, Jetpack Compose,
+Material 3, androidx.security:security-crypto) are licensed under the
+Apache License, Version 2.0.
+
+The status-bar icon (res/drawable/ic_stat_anchor.xml) is based on the
+Material Design "place" icon, Copyright Google LLC, Apache License 2.0.
